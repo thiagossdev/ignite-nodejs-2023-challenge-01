@@ -1,0 +1,264 @@
+{
+  // =================== CONFIG: Basicas do vscode ===================
+  "workbench.startupEditor": "newUntitledFile", // <== Abrir novo arquivo sem nome
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "breadcrumbs.enabled": true, // <== Mostrar breadcrumbs
+  "update.mode": "start",
+  // =================== CONFIG: janelas, temas, icones ===================
+  "window.zoomLevel": 0, // <== Zoom da tela
+  "workbench.sideBar.location": "left", // <== Posição da barra lateral
+  "workbench.iconTheme": "material-icon-theme", // <== Tema dos icones
+  // "workbench.colorTheme": "Dracula",
+  "glassit.alpha": 253,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.tree.indent": 20,
+  // =================== CONFIG: javascript/node.js ===================
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // =================== CONFIG: react.js ===================
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "javascriptreact": "javascriptreact",
+    "typescriptreact": "typescriptreact",
+  },
+  // =================== CONFIG: arquivos e pastas ===================
+  "files.autoSave": "afterDelay", // <== Salvar automaticamente
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+  "files.exclude": {
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.git": true,
+    // "**/node_modules": true,
+    "**/__pycache__": true
+  },
+  // =================== CONFIG: extensões ===================
+  "extensions.ignoreRecommendations": true, // <== Não mostrar recomendações de extensões
+  "extensions.autoCheckUpdates": true, // <== Verificar atualizações automaticamente
+  // =================== CONFIG: typescript ===================
+  "typescript.tsserver.log": "off",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // =================== CONFIG: extensão material icon theme ===================
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+  "material-icon-theme.files.associations": {
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d",
+    "ormconfig.json": "database"
+  },
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#6272a4",
+  // =================== CONFIG: editor ===================
+  "editor.rulers": [
+    80,
+    120
+  ], // <== Linhas guias
+  "editor.fontSize": 16, // <== Tamanho da fonte
+  "editor.tabSize": 2, // <== Tamanho da tabulação
+  "editor.lineHeight": 26, // <== Altura da linha
+  "editor.fontFamily": "JetBrains Mono", // <== Fonte
+  "editor.suggestSelection": "first", // <== Selecionar a primeira sugestão
+  "editor.fontLigatures": true, // <== Ligaduras de fonte
+  "editor.acceptSuggestionOnCommitCharacter": false, // <== Não aceitar sugestão ao digitar
+  "editor.accessibilitySupport": "off", // <== Desabilitar suporte a acessibilidade
+  "workbench.editor.labelFormat": "short", // <== Formato do nome do arquivo
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.parameterHints.enabled": true, // <== Desabilitar dicas de parâmetros
+  "editor.renderLineHighlight": "gutter", // <== Destacar linha atual
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.stickyScroll.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.wordWrap": "on",
+  // =================== CONFIG: terminal linux ===================
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  // =================== CONFIG: discord presence ===================
+  "discord.detailsIdling": "👀 Procurando nos Arquivos...",
+  "discord.detailsEditing": "☕ {file_name} com {file_size}",
+  "discord.largeImageIdling": "⏲️ Código, Café e Pomodoro",
+  "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
+  "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
+  "discord.lowerDetailsIdling": "☕ Hora do café",
+  "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
+  // =================== CONFIG: eslint e prettier ===================
+  "eslint.format.enable": true,
+  "prettier.printWidth": 120,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    // "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.inlineSuggest.enabled": true,
+  "git.confirmSync": false,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "javascript": true,
+    "python": true,
+    "javascriptreact": true
+  },
+  "editor.semanticHighlighting.enabled": false,
+  "eslint.validate": [
+    "javascript",
+    "typescriptreact",
+    "javascriptreact"
+  ],
+  "[javascript]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // =================== CONFIG: explorador de arquivos ===================
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  // =================== CONFIG: git e gitlens ===================
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": true,
+  "gitlens.codeLens.enabled": false,
+  "git.enableSmartCommit": true,
+  "git.allowForcePush": false,
+  "git.autofetch": true,
+  // =================== CONFIG: live share/server ===================
+  "liveshare.featureSet": "insiders",
+  // =================== CONFIG: spell check ===================
+  "cSpell.userWords": [
+    "chakra",
+    "clsx",
+    "Dotenv",
+    "fastify",
+    "Fastify",
+    "feedbackwidget",
+    "Hono",
+    "IUGU",
+    "jupiter",
+    "middlewares",
+    "mixpanel",
+    "monaco",
+    "nestjs",
+    "Omni",
+    "Onboarded",
+    "pallas",
+    "prefetch",
+    "rocketseat",
+    "rotion",
+    "trpc",
+    "TRPC",
+    "unfollow",
+    "Unfollow",
+    "unform",
+    "Unform",
+    "unmark",
+    "upsert"
+  ],
+  "cSpell.language": "en,pt",
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  // =================== CONFIG: prisma ===================
+  "[prisma]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  // =================== CONFIG: tabnine ===================
+  "tabnine.experimentalAutoImports": true,
+  // =================== CONFIG: polacode ===================
+  "polacode.transparentBackground": true,
+  "polacode.target": "snippet",
+  // =================== CONFIG: segurança ===================
+  "security.workspace.trust.untrustedFiles": "newWindow", // <== Abrir arquivos não confiáveis em uma nova janela
+}
